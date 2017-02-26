@@ -1,0 +1,738 @@
+<?xml version="1.0"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+    <Overview>
+
+	<FormattedContent><![CDATA[
+<h1><font color="#FF0000">NOTE!</font></h1>
+  <ul>
+  	<li><h2><font color="#FF0000">Do not accept the HIT if you're NOT using a desktop. </font></h2></li>
+    <li><h2><font color="#FF0000">Do not accept the HIT if you have done this task before. </font></h2></li>
+    <li><h2><font color="#FF0000">You will NOT be able to finish this task if you have done our tasks before.</font></h2></li>
+		<li><h2><font color="#FF0000">You will need to start the final step at 9/22/2015 22:00pm EDT.</font></h2></li>
+    <li><h2><font color="#FF0000">Only serious responses will be paid. Thank you for your understanding.</font></h2></li>
+  </ul>
+
+<h2><b>General instructions:</b></h2>
+<p>Open <a href="http://luoyang.lti.cs.cmu.edu:3000/endpoint?uid=${uid}">http://luoyang.lti.cs.cmu.edu:3000/endpoint?uid=${uid}</a> in a new window.
+You will be asked to enter your Mturk ID and finish a four-step task.
+If you were not able to finish the task, you can still submit the HIT and will be paid. Please kindly let us know what's going wrong. </p>
+  <ul>
+    <li>In Step 1 (~5 minutes), you&#39;ll read an article about an energy resource and finish a quiz.</li>
+    <li>In Step 2 (~5 minutes), you&#39;ll write an energy proposal.</li>
+    <li>In Step 3 (~10 minutes), you&#39;ll join a forum discussion and comment on the other Turkers' proposals.</li>
+    <li>In Step 4 (~15 minutes), you&#39;ll collaboratively work with several Turkers on choosing an energy plans for a city. A submission code will be provided at the end of Step 3.Thanks!</li>
+  </ul>
+
+	]]></FormattedContent>
+    </Overview>
+
+    <Question>
+		<QuestionIdentifier>code</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+		<QuestionContent>
+			<FormattedContent><![CDATA[
+				Your submission code:(If you were able to finish the task)
+			]]></FormattedContent>
+	       	</QuestionContent>
+		<AnswerSpecification>
+			<FreeTextAnswer>
+			<DefaultText></DefaultText>
+			</FreeTextAnswer>
+		</AnswerSpecification>
+    </Question>
+
+	 <Question>
+
+       <QuestionIdentifier>T/F_1</QuestionIdentifier>
+       <IsRequired>true</IsRequired>
+       <QuestionContent>
+       <FormattedContent><![CDATA[
+       <b>Please answer T/F for the following questions.</b>
+       ]]></FormattedContent>
+    <FormattedContent><![CDATA[
+    Wind energy is more consistent than solar energy in many areas.
+    ]]></FormattedContent>
+       </QuestionContent>
+       <AnswerSpecification>
+           <SelectionAnswer>
+             <MinSelectionCount>1</MinSelectionCount>
+       <MaxSelectionCount>1</MaxSelectionCount>
+             <StyleSuggestion>radiobutton</StyleSuggestion>
+             <Selections>
+    <Selection>
+     <SelectionIdentifier>1</SelectionIdentifier>
+     <Text>True</Text>
+    </Selection>
+    <Selection>
+     <SelectionIdentifier>2</SelectionIdentifier>
+     <Text>False</Text>
+    </Selection>
+       </Selections>
+           </SelectionAnswer>
+       </AnswerSpecification>
+    </Question>
+
+  <Question>
+    <QuestionIdentifier>T/F_2</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+    <FormattedContent><![CDATA[
+    Coal is a mineral found in abundance in most parts of the world, thus it is an economical energy source.
+    ]]></FormattedContent>
+    </QuestionContent>
+    <AnswerSpecification>
+        <SelectionAnswer>
+          <MinSelectionCount>1</MinSelectionCount>
+    <MaxSelectionCount>1</MaxSelectionCount>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+    <Selection>
+    <SelectionIdentifier>1</SelectionIdentifier>
+    <Text>True</Text>
+    </Selection>
+    <Selection>
+    <SelectionIdentifier>2</SelectionIdentifier>
+    <Text>False</Text>
+    </Selection>
+    </Selections>
+        </SelectionAnswer>
+    </AnswerSpecification>
+    </Question>
+<Question>
+    <QuestionIdentifier>T/F_3</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+ <FormattedContent><![CDATA[
+ Wind energy is more consistent than solar energy in many areas
+ ]]></FormattedContent>
+    </QuestionContent>
+    <AnswerSpecification>
+        <SelectionAnswer>
+          <MinSelectionCount>1</MinSelectionCount>
+    <MaxSelectionCount>1</MaxSelectionCount>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+ <Selection>
+  <SelectionIdentifier>1</SelectionIdentifier>
+  <Text>True</Text>
+ </Selection>
+ <Selection>
+  <SelectionIdentifier>2</SelectionIdentifier>
+  <Text>False</Text>
+ </Selection>
+    </Selections>
+        </SelectionAnswer>
+    </AnswerSpecification>
+ </Question>
+
+<Question>
+ <QuestionIdentifier>T/F_4</QuestionIdentifier>
+ <IsRequired>true</IsRequired>
+ <QuestionContent>
+<FormattedContent><![CDATA[
+Nuclear energy doesn’t produce any pollutants.
+]]></FormattedContent>
+ </QuestionContent>
+ <AnswerSpecification>
+     <SelectionAnswer>
+       <MinSelectionCount>1</MinSelectionCount>
+ <MaxSelectionCount>1</MaxSelectionCount>
+       <StyleSuggestion>radiobutton</StyleSuggestion>
+       <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>True</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>False</Text>
+</Selection>
+ </Selections>
+     </SelectionAnswer>
+ </AnswerSpecification>
+</Question>
+
+<Question>
+
+<QuestionIdentifier>MCQ1</QuestionIdentifier>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<FormattedContent><![CDATA[
+<b>Multiple Choice Questions - Single Answer</b>
+]]></FormattedContent>
+<FormattedContent><![CDATA[
+Which of the following isn’t a negative effect of turbine farms?
+]]></FormattedContent>
+</QuestionContent>
+<AnswerSpecification>
+    <SelectionAnswer>
+      <MinSelectionCount>1</MinSelectionCount>
+<MaxSelectionCount>1</MaxSelectionCount>
+      <StyleSuggestion>radiobutton</StyleSuggestion>
+      <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>Take up a lot of land area</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>Disrupt normal wind patterns</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>3</SelectionIdentifier>
+<Text>Generating lots of pollutants</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>4</SelectionIdentifier>
+<Text>Threaten birds in the area</Text>
+</Selection>
+</Selections>
+    </SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+
+<Question>
+<QuestionIdentifier>MCQ2</QuestionIdentifier>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<FormattedContent><![CDATA[
+Which of the following is wrong about hydroelectric plants?
+]]></FormattedContent>
+</QuestionContent>
+<AnswerSpecification>
+    <SelectionAnswer>
+      <MinSelectionCount>1</MinSelectionCount>
+<MaxSelectionCount>1</MaxSelectionCount>
+      <StyleSuggestion>radiobutton</StyleSuggestion>
+      <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>The local environment is severely impacted</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>It will cause no pollution to the water flow since it is clean energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>3</SelectionIdentifier>
+<Text>The artificial structures are a detraction from natural scenery</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>4</SelectionIdentifier>
+<Text>It could lead to flash floods and earthquakes</Text>
+</Selection>
+</Selections>
+    </SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+
+<Question>
+<QuestionIdentifier>MCQ3</QuestionIdentifier>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<FormattedContent><![CDATA[
+Which of the following is an incorrect description of coal energy?
+]]></FormattedContent>
+</QuestionContent>
+<AnswerSpecification>
+    <SelectionAnswer>
+      <MinSelectionCount>1</MinSelectionCount>
+<MaxSelectionCount>1</MaxSelectionCount>
+      <StyleSuggestion>radiobutton</StyleSuggestion>
+      <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>Coal is cheap and plentiful in many areas of the world</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>Coal deposits are located far from the surface</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>3</SelectionIdentifier>
+<Text>Coal is very stable and can be stored and transported safely</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>4</SelectionIdentifier>
+<Text>Coal burning generates lots of pollutants</Text>
+</Selection>
+
+</Selections>
+    </SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+<Question>
+<QuestionIdentifier>MCQ4</QuestionIdentifier>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<FormattedContent><![CDATA[
+Which of the following is wrong about nuclear energy?
+]]></FormattedContent>
+</QuestionContent>
+<AnswerSpecification>
+    <SelectionAnswer>
+      <MinSelectionCount>1</MinSelectionCount>
+<MaxSelectionCount>1</MaxSelectionCount>
+      <StyleSuggestion>radiobutton</StyleSuggestion>
+      <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>It takes little effort to store the waste from nuclear energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>The planning and construction for a nuclear power plant takes 10 to 30 years</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>3</SelectionIdentifier>
+<Text>The storage costs are extremely high</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>4</SelectionIdentifier>
+<Text>It's not a permanent source of energy</Text>
+</Selection>
+</Selections>
+    </SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+<Question>
+<QuestionIdentifier>MCQ_Multiple1</QuestionIdentifier>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<FormattedContent><![CDATA[
+<b>Multiple Choice Questions - One or more than one of the answers is correct.</b>
+]]></FormattedContent>
+<FormattedContent><![CDATA[
+Which of the following produces no toxic waste?
+]]></FormattedContent>
+</QuestionContent>
+<AnswerSpecification>
+    <SelectionAnswer>
+      <MinSelectionCount>1</MinSelectionCount>
+<MaxSelectionCount>4</MaxSelectionCount>
+      <StyleSuggestion>checkbox</StyleSuggestion>
+      <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>Coal Energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>Wind Energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>3</SelectionIdentifier>
+<Text>Nuclear Energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>4</SelectionIdentifier>
+<Text>Hydroelectric Energy</Text>
+</Selection>
+</Selections>
+    </SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+<Question>
+<QuestionIdentifier>MCQ_Multiple2</QuestionIdentifier>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<FormattedContent><![CDATA[
+Which of the following has the potential to cause damage to surrounding habitats?
+]]></FormattedContent>
+</QuestionContent>
+<AnswerSpecification>
+    <SelectionAnswer>
+      <MinSelectionCount>1</MinSelectionCount>
+<MaxSelectionCount>4</MaxSelectionCount>
+      <StyleSuggestion>checkbox</StyleSuggestion>
+      <Selections>
+<Selection>
+<SelectionIdentifier>1</SelectionIdentifier>
+<Text>Coal Energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>2</SelectionIdentifier>
+<Text>Wind Energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>3</SelectionIdentifier>
+<Text>Nuclear Energy</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>4</SelectionIdentifier>
+<Text>Hydroelectric Energy</Text>
+</Selection>
+</Selections>
+    </SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+<Question>
+	        <QuestionIdentifier>Understanding</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+          <FormattedContent><![CDATA[
+          <b>Some of the following sentences describe you better than others. Choose the response that best describes your situation.</b>
+    			]]></FormattedContent>
+			<FormattedContent><![CDATA[
+      The group chat greatly increased my understanding of the use of different sources of energy.
+			]]></FormattedContent>
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount>
+		      <MaxSelectionCount>1</MaxSelectionCount>
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>Strongly Disagree</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>Somewhat Disagree</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>Neither Disagree nor Agree</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>Somewhat Agree</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>Strongly Agree</Text>
+			</Selection>
+      <Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>NA</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+
+    <Question>
+ 	        <QuestionIdentifier>Elicitation</QuestionIdentifier>
+ 	        <IsRequired>true</IsRequired>
+ 	        <QuestionContent>
+ 			<FormattedContent><![CDATA[
+       The prompts provided by Bazaar during the chat helped me explain my thoughts.
+ 			]]></FormattedContent>
+ 	       	</QuestionContent>
+ 	        <AnswerSpecification>
+ 	            <SelectionAnswer>
+ 	              <MinSelectionCount>1</MinSelectionCount>
+ 		      <MaxSelectionCount>1</MaxSelectionCount>
+ 	              <StyleSuggestion>radiobutton</StyleSuggestion>
+ 	              <Selections>
+ 			<Selection>
+ 			  <SelectionIdentifier>1</SelectionIdentifier>
+ 			  <Text>Strongly Disagree</Text>
+ 			</Selection>
+ 			<Selection>
+ 			  <SelectionIdentifier>2</SelectionIdentifier>
+ 			  <Text>Somewhat Disagree</Text>
+ 			</Selection>
+ 			<Selection>
+ 			  <SelectionIdentifier>3</SelectionIdentifier>
+ 			  <Text>Neither Disagree nor Agree</Text>
+ 			</Selection>
+ 			<Selection>
+ 			  <SelectionIdentifier>4</SelectionIdentifier>
+ 			  <Text>Somewhat Agree</Text>
+ 			</Selection>
+ 			<Selection>
+ 			  <SelectionIdentifier>5</SelectionIdentifier>
+ 			  <Text>Strongly Agree</Text>
+ 			</Selection>
+      <Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>NA</Text>
+			</Selection>
+ 		      </Selections>
+ 	            </SelectionAnswer>
+ 	        </AnswerSpecification>
+     </Question>
+
+     <Question>
+  	        <QuestionIdentifier>Enjoyment</QuestionIdentifier>
+  	        <IsRequired>true</IsRequired>
+  	        <QuestionContent>
+  			<FormattedContent><![CDATA[
+        I enjoyed chatting with my group members.
+  			]]></FormattedContent>
+  	       	</QuestionContent>
+  	        <AnswerSpecification>
+  	            <SelectionAnswer>
+  	              <MinSelectionCount>1</MinSelectionCount>
+  		      <MaxSelectionCount>1</MaxSelectionCount>
+  	              <StyleSuggestion>radiobutton</StyleSuggestion>
+  	              <Selections>
+  			<Selection>
+  			  <SelectionIdentifier>1</SelectionIdentifier>
+  			  <Text>Strongly Disagree</Text>
+  			</Selection>
+  			<Selection>
+  			  <SelectionIdentifier>2</SelectionIdentifier>
+  			  <Text>Somewhat Disagree</Text>
+  			</Selection>
+  			<Selection>
+  			  <SelectionIdentifier>3</SelectionIdentifier>
+  			  <Text>Neither Disagree nor Agree</Text>
+  			</Selection>
+  			<Selection>
+  			  <SelectionIdentifier>4</SelectionIdentifier>
+  			  <Text>Somewhat Agree</Text>
+  			</Selection>
+  			<Selection>
+  			  <SelectionIdentifier>5</SelectionIdentifier>
+  			  <Text>Strongly Agree</Text>
+  			</Selection>
+        <Selection>
+  			  <SelectionIdentifier>6</SelectionIdentifier>
+  			  <Text>NA</Text>
+  			</Selection>
+  		      </Selections>
+  	            </SelectionAnswer>
+  	        </AnswerSpecification>
+      </Question>
+
+      <Question>
+   	        <QuestionIdentifier>Discussion_Support</QuestionIdentifier>
+   	        <IsRequired>true</IsRequired>
+   	        <QuestionContent>
+   			<FormattedContent><![CDATA[
+         The Bazaar chat helped support our discussion.
+   			]]></FormattedContent>
+   	       	</QuestionContent>
+   	        <AnswerSpecification>
+   	            <SelectionAnswer>
+   	              <MinSelectionCount>1</MinSelectionCount>
+   		      <MaxSelectionCount>1</MaxSelectionCount>
+   	              <StyleSuggestion>radiobutton</StyleSuggestion>
+   	              <Selections>
+   			<Selection>
+   			  <SelectionIdentifier>1</SelectionIdentifier>
+   			  <Text>Strongly Disagree</Text>
+   			</Selection>
+   			<Selection>
+   			  <SelectionIdentifier>2</SelectionIdentifier>
+   			  <Text>Somewhat Disagree</Text>
+   			</Selection>
+   			<Selection>
+   			  <SelectionIdentifier>3</SelectionIdentifier>
+   			  <Text>Neither Disagree nor Agree</Text>
+   			</Selection>
+   			<Selection>
+   			  <SelectionIdentifier>4</SelectionIdentifier>
+   			  <Text>Somewhat Agree</Text>
+   			</Selection>
+   			<Selection>
+   			  <SelectionIdentifier>5</SelectionIdentifier>
+   			  <Text>Strongly Agree</Text>
+   			</Selection>
+        <Selection>
+  			  <SelectionIdentifier>6</SelectionIdentifier>
+  			  <Text>NA</Text>
+  			</Selection>
+   		      </Selections>
+   	            </SelectionAnswer>
+   	        </AnswerSpecification>
+       </Question>
+
+       <Question>
+    	        <QuestionIdentifier>Group_Members</QuestionIdentifier>
+    	        <IsRequired>true</IsRequired>
+    	        <QuestionContent>
+    			<FormattedContent><![CDATA[
+          My group members are knowledgeable and supportive.
+          ]]></FormattedContent>
+    	       	</QuestionContent>
+    	        <AnswerSpecification>
+    	            <SelectionAnswer>
+    	              <MinSelectionCount>1</MinSelectionCount>
+    		      <MaxSelectionCount>1</MaxSelectionCount>
+    	              <StyleSuggestion>radiobutton</StyleSuggestion>
+    	              <Selections>
+    			<Selection>
+    			  <SelectionIdentifier>1</SelectionIdentifier>
+    			  <Text>Strongly Disagree</Text>
+    			</Selection>
+    			<Selection>
+    			  <SelectionIdentifier>2</SelectionIdentifier>
+    			  <Text>Somewhat Disagree</Text>
+    			</Selection>
+    			<Selection>
+    			  <SelectionIdentifier>3</SelectionIdentifier>
+    			  <Text>Neither Disagree nor Agree</Text>
+    			</Selection>
+    			<Selection>
+    			  <SelectionIdentifier>4</SelectionIdentifier>
+    			  <Text>Somewhat Agree</Text>
+    			</Selection>
+    			<Selection>
+    			  <SelectionIdentifier>5</SelectionIdentifier>
+    			  <Text>Strongly Agree</Text>
+    			</Selection>
+          <Selection>
+    			  <SelectionIdentifier>6</SelectionIdentifier>
+    			  <Text>NA</Text>
+    			</Selection>
+    		      </Selections>
+    	            </SelectionAnswer>
+    	        </AnswerSpecification>
+        </Question>
+
+        <Question>
+     	        <QuestionIdentifier>Sufficient_Support</QuestionIdentifier>
+     	        <IsRequired>true</IsRequired>
+     	        <QuestionContent>
+     			<FormattedContent><![CDATA[
+           I think the support provided in Bazaar is sufficient.
+           ]]></FormattedContent>
+     	       	</QuestionContent>
+     	        <AnswerSpecification>
+     	            <SelectionAnswer>
+     	              <MinSelectionCount>1</MinSelectionCount>
+     		      <MaxSelectionCount>1</MaxSelectionCount>
+     	              <StyleSuggestion>radiobutton</StyleSuggestion>
+     	              <Selections>
+     			<Selection>
+     			  <SelectionIdentifier>1</SelectionIdentifier>
+     			  <Text>Strongly Disagree</Text>
+     			</Selection>
+     			<Selection>
+     			  <SelectionIdentifier>2</SelectionIdentifier>
+     			  <Text>Somewhat Disagree</Text>
+     			</Selection>
+     			<Selection>
+     			  <SelectionIdentifier>3</SelectionIdentifier>
+     			  <Text>Neither Disagree nor Agree</Text>
+     			</Selection>
+     			<Selection>
+     			  <SelectionIdentifier>4</SelectionIdentifier>
+     			  <Text>Somewhat Agree</Text>
+     			</Selection>
+     			<Selection>
+     			  <SelectionIdentifier>5</SelectionIdentifier>
+     			  <Text>Strongly Agree</Text>
+     			</Selection>
+          <Selection>
+    			  <SelectionIdentifier>6</SelectionIdentifier>
+    			  <Text>NA</Text>
+    			</Selection>
+     		      </Selections>
+     	            </SelectionAnswer>
+     	        </AnswerSpecification>
+         </Question>
+
+         <Question>
+      	        <QuestionIdentifier>Different_Angle</QuestionIdentifier>
+      	        <IsRequired>true</IsRequired>
+      	        <QuestionContent>
+      			<FormattedContent><![CDATA[
+            The group chat helped me understand the energy plan from a different angle.
+            ]]></FormattedContent>
+      	       	</QuestionContent>
+      	        <AnswerSpecification>
+      	            <SelectionAnswer>
+      	              <MinSelectionCount>1</MinSelectionCount>
+      		      <MaxSelectionCount>1</MaxSelectionCount>
+      	              <StyleSuggestion>radiobutton</StyleSuggestion>
+      	              <Selections>
+      			<Selection>
+      			  <SelectionIdentifier>1</SelectionIdentifier>
+      			  <Text>Strongly Disagree</Text>
+      			</Selection>
+      			<Selection>
+      			  <SelectionIdentifier>2</SelectionIdentifier>
+      			  <Text>Somewhat Disagree</Text>
+      			</Selection>
+      			<Selection>
+      			  <SelectionIdentifier>3</SelectionIdentifier>
+      			  <Text>Neither Disagree nor Agree</Text>
+      			</Selection>
+      			<Selection>
+      			  <SelectionIdentifier>4</SelectionIdentifier>
+      			  <Text>Somewhat Agree</Text>
+      			</Selection>
+      			<Selection>
+      			  <SelectionIdentifier>5</SelectionIdentifier>
+      			  <Text>Strongly Agree</Text>
+      			</Selection>
+            <Selection>
+      			  <SelectionIdentifier>6</SelectionIdentifier>
+      			  <Text>NA</Text>
+      			</Selection>
+      		      </Selections>
+      	            </SelectionAnswer>
+      	        </AnswerSpecification>
+          </Question>
+
+          <Question>
+       	        <QuestionIdentifier>More_Support</QuestionIdentifier>
+       	        <IsRequired>true</IsRequired>
+       	        <QuestionContent>
+       			<FormattedContent><![CDATA[
+             I'd love to have more support in Bazaar to help us discuss.
+       			]]></FormattedContent>
+       	       	</QuestionContent>
+       	        <AnswerSpecification>
+       	            <SelectionAnswer>
+       	              <MinSelectionCount>1</MinSelectionCount>
+       		      <MaxSelectionCount>1</MaxSelectionCount>
+       	              <StyleSuggestion>radiobutton</StyleSuggestion>
+       	              <Selections>
+       			<Selection>
+       			  <SelectionIdentifier>1</SelectionIdentifier>
+       			  <Text>Strongly Disagree</Text>
+       			</Selection>
+       			<Selection>
+       			  <SelectionIdentifier>2</SelectionIdentifier>
+       			  <Text>Somewhat Disagree</Text>
+       			</Selection>
+       			<Selection>
+       			  <SelectionIdentifier>3</SelectionIdentifier>
+       			  <Text>Neither Disagree nor Agree</Text>
+       			</Selection>
+       			<Selection>
+       			  <SelectionIdentifier>4</SelectionIdentifier>
+       			  <Text>Somewhat Agree</Text>
+       			</Selection>
+       			<Selection>
+       			  <SelectionIdentifier>5</SelectionIdentifier>
+       			  <Text>Strongly Agree</Text>
+       			</Selection>
+            <Selection>
+      			  <SelectionIdentifier>6</SelectionIdentifier>
+      			  <Text>NA</Text>
+      			</Selection>
+       		      </Selections>
+       	            </SelectionAnswer>
+       	        </AnswerSpecification>
+           </Question>
+
+
+
+    <Question>
+		<QuestionIdentifier>feedback</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+		<QuestionContent>
+			<FormattedContent><![CDATA[
+					Do you have any suggestions on how Bazaar can be improved to support your discussion?
+			]]></FormattedContent>
+	       	</QuestionContent>
+		<AnswerSpecification>
+			<FreeTextAnswer>
+			<DefaultText></DefaultText>
+			</FreeTextAnswer>
+		</AnswerSpecification>
+    </Question>
+</QuestionForm>

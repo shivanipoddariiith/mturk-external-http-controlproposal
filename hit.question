@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+    <Overview>
+        	
+	<FormattedContent><![CDATA[
+<h1><font color="#FF0000">NOTE!</font></h1>
+  <ul>
+  	<li><h2><font color="#FF0000">Do not accept the HIT if you're NOT using a desktop. </font></h2></li>
+    <li><h2><font color="#FF0000">Do not accept the HIT if you have done this task before. </font></h2></li>
+       <li><h2><font color="#FF0000">This task has to be done with a Chrome browser. Do not accept the HIT if you do NOT have a Chrome browser. </font></h2></li>
+    <li><h2><font color="#FF0000">You will NOT be able to finish this task if you have done our tasks before.</font></h2></li>
+    <li><h2><font color="#FF0000">You will need to start the collaboration step at 8/15/2016 13:00pm EDT.You need to go through 4 steps before collaboration, so remember to start early.</font></h2></li>
+<li><h2><font color="#FF0000">The task will take about 40-45 minutes, there is a possible 20-25 minutes wait.</font></h2></li>
+     <li><h2><font color="#FF0000">Only serious responses will be paid. Thank you for your understanding.</font></h2></li>
+
+  </ul>
+
+<h2><b>General instructions:</b></h2>
+<p>Open <a href="http://codingthecrowd.com/anhong/redirect/task.php" target="_blank">http://codingthecrowd.com/anhong/redirect/task.php</a> in a new window.
+You need to use Chrome browser for this task.You will be asked to enter your Mturk ID and finish a six-step task.
+If you were not able to finish the task, you can still submit the HIT and will be paid. Please kindly let us know what's going wrong. </p>
+  <ul>
+    <li>In Step 1 (~5 minutes), you&#39;ll complete a writing task.</li>
+    <li>In Step 2 (~3 minutes), you&#39;ll read an article.</li>  
+    <li>In Step 3 (~5 minutes), you&#39;ll write an energy proposal.</li>
+    <li>In Step 4 (~10 minutes), you&#39;ll join a forum discussion and comment on the other Turkers' proposals.</li>  
+    <li>In Step 5 (~15 minutes), you&#39;ll collaboratively work with several Turkers on choosing an energy plans for a city.</li>
+    <li>In Step 6 (~5 minutes), you&#39;ll complete a writing task. A submission code will be provided in the end. Thanks!</li>
+  </ul>
+
+	]]></FormattedContent>
+    </Overview>
+
+    <Question>
+		<QuestionIdentifier>code</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+		<QuestionContent>
+			<FormattedContent><![CDATA[
+				Your submission code:(If you were able to finish the task)
+			]]></FormattedContent>   
+	       	</QuestionContent>
+		<AnswerSpecification>
+			<FreeTextAnswer>
+			<DefaultText></DefaultText>
+			</FreeTextAnswer>
+		</AnswerSpecification>
+    </Question>
+
+	 <Question>
+	        <QuestionIdentifier>Experience</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				Overall, how <b>enjoyable</b> was the collaboration?
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Completely unenjoyable)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neither enjoyable or unenjoyable)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Completely enjoyable)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+    
+    <Question>
+	        <QuestionIdentifier>End_Result</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				How <b>satisfied</b> were you with your group&#39;s end result?
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Completely unsatisfied)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neither satisfied or unsatisfied)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Completely satisfied)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+    
+      <Question>
+	        <QuestionIdentifier>Communication_Quality</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				How <b>happy</b> were you with the quality of communication among the group members?
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Completely unhappy)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neither happy or unhappy)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Completely happy)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+<Question>
+	        <QuestionIdentifier>Bazaar_Support</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				How <b>satisfied</b> were you with the support provided by Bazaar?
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Completely unsatisfied)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neither satisfied or unsatisfied</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Completely satisfied</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+    
+
+    
+          <Question>
+	        <QuestionIdentifier>Topic_Familiarity</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				How <b>familiar</b> were you with the energy topic before this task?
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Completely unfamiliar)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neither familiar or unfamiliar)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Completely familiar)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+
+
+		  <Question>
+	        <QuestionIdentifier>Perceived_Learning</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				The <b>learning quality</b> of the reading materials was improved by the team activities.
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Strongly disagree)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neutral)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Strongly agree)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+    
+		  <Question>
+	        <QuestionIdentifier>Bazaar_Learning</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				The <b>support provided by Bazaar</b> helped me understand the problem from other perspectives brought up by my team members.
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Strongly disagree)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neutral)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Strongly agree)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+    
+		  <Question>
+	        <QuestionIdentifier>Prompt_sufficient</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+	        <QuestionContent>
+			<FormattedContent><![CDATA[
+				The  <b>prompts provided by Bazaar</b> were interrupting and disturbing our discussion.
+			]]></FormattedContent>   
+	       	</QuestionContent>
+	        <AnswerSpecification>
+	            <SelectionAnswer>
+	              <MinSelectionCount>1</MinSelectionCount> 
+		      <MaxSelectionCount>1</MaxSelectionCount> 
+	              <StyleSuggestion>radiobutton</StyleSuggestion>
+	              <Selections>
+			<Selection>
+			  <SelectionIdentifier>1</SelectionIdentifier>
+			  <Text>1 (Strongly disagree)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>2</SelectionIdentifier>
+			  <Text>2</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>3</SelectionIdentifier>
+			  <Text>3</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>4</SelectionIdentifier>
+			  <Text>4 (Neutral)</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>5</SelectionIdentifier>
+			  <Text>5</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>6</SelectionIdentifier>
+			  <Text>6</Text>
+			</Selection>
+			<Selection>
+			  <SelectionIdentifier>7</SelectionIdentifier>
+			  <Text>7 (Strongly agree)</Text>
+			</Selection>
+		      </Selections>
+	            </SelectionAnswer>
+	        </AnswerSpecification>
+    </Question>
+    
+    
+    <Question>
+		<QuestionIdentifier>suggestion</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+		<QuestionContent>
+			<FormattedContent><![CDATA[
+					What nickname did you use? Were you able to finish the task? Did you encountered any problems during the task? Which step went wrong? 
+			]]></FormattedContent>   
+	       	</QuestionContent>
+		<AnswerSpecification>
+			<FreeTextAnswer>
+			<DefaultText></DefaultText>
+			</FreeTextAnswer>
+		</AnswerSpecification>
+    </Question>
+    
+    <Question>
+		<QuestionIdentifier>feedback</QuestionIdentifier>
+	        <IsRequired>true</IsRequired>
+		<QuestionContent>
+			<FormattedContent><![CDATA[
+					Any comments or feedback for us? Were the instructions clear to you?
+			]]></FormattedContent>   
+	       	</QuestionContent>
+		<AnswerSpecification>
+			<FreeTextAnswer>
+			<DefaultText></DefaultText>
+			</FreeTextAnswer>
+		</AnswerSpecification>
+    </Question>    
+</QuestionForm>
